@@ -21,6 +21,14 @@ source .venv/bin/activate  # Linux / macOS
 
 ## Использование
 
+### 1. Запуск мок-сервера
+
+```bash
+python mock_server.py
+```
+
+### 2. Выполнение команд
+
 ```bash
 python cli.py <команда>
 ```
