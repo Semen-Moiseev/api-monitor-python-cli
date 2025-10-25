@@ -10,9 +10,6 @@ def mock_test():
 	delay = random.uniform(0.1, 0.8)
 	time.sleep(delay)
 
-	if random.random() < 0.1:
-		time.sleep(3.0)
-
 	if random.random() < 0.7:
 		return {"status": "ok", "delay": delay}
 	else:

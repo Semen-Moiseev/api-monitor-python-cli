@@ -1,4 +1,5 @@
-from monitor.storage import save_results
+# from monitor.storage import save_results
+from .rabbitmq_producer import send_task
 
 from pathlib import Path
 from datetime import datetime
@@ -8,26 +9,25 @@ import time
 import asyncio
 import aiohttp
 
-# Число одновременных запросов
-SEMAPHORE_LIMIT = 5
-
 # Асинхронная проверка одного API
-async def fetch(session, endpoint, log, semaphore):
-	name = endpoint.get("name")
-	url = endpoint.get("url")
-
+async def fetch(session, name, url, log, semaphore):
 	async with semaphore:
 		start_resp_time = time.time()
-		status = None
+
 		try:
 			async with session.get(url, timeout=aiohttp.ClientTimeout(total=3)) as response:
-				status = response.status
+				response.raise_for_status()
 				await response.text()
-		except (aiohttp.ClientError, asyncio.TimeoutError):
-			log.error(f"{name}: Request error")
+				status = response.status
+				elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
 
-	elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
-	log.info(f"Check {name} -> {status} ({elapsed_resp_time} ms)")
+				log.info(f"Check {name} -> {status} ({elapsed_resp_time} ms)")
+		except (aiohttp.ClientError, asyncio.TimeoutError):
+			status = response.status
+			elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
+
+			log.error(f"Check {name} -> {status}: Request error ({elapsed_resp_time} ms)")
+
 	return {
 		"name": name,
 		"url": url,
@@ -45,11 +45,13 @@ async def run_check_async(config_path, log):
 
 	with path.open("r", encoding="utf-8") as f:
 		endpoints = json.load(f)
-		semaphore = asyncio.Semaphore(SEMAPHORE_LIMIT)
 
-		async with aiohttp.ClientSession() as session:
-			tasks = [fetch(session, endpoint, log, semaphore) for endpoint in endpoints]
-			results = await asyncio.gather(*tasks, return_exceptions=True)
+	for endpoint in endpoints:
+		await send_task(endpoint)
 
-		save_results(results)
-		log.info("The results are saved.")
+		# async with aiohttp.ClientSession() as session:
+		# 	tasks = [fetch(session, endpoint, log, semaphore) for endpoint in endpoints]
+		# 	results = await asyncio.gather(*tasks, return_exceptions=True)
+
+		# save_results(results)
+		# log.info("The results are saved.")

@@ -1,6 +1,7 @@
 import argparse
 import asyncio
-from monitor import monitor, logger, stats
+from monitor.monitor import run_check_async
+from monitor import logger, stats
 
 def main():
 	parser = argparse.ArgumentParser(description="API Monitor CLI")
@@ -17,7 +18,7 @@ def main():
 	log = logger.setup_logger()
 
 	if args.command == "check":
-		asyncio.run(monitor.run_check_async(args.config, log))
+		asyncio.run(run_check_async(args.config, log))
 	elif args.command == "stats":
 		stats.show_stats(log)
 	else:
