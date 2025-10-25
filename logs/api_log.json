@@ -1230,5 +1230,75 @@
     "status": 200,
     "response_time_ms": 291,
     "timestamp": "2025-10-25T19:30:39.511362"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 224,
+    "timestamp": "2025-10-25T20:02:48.941704"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 297,
+    "timestamp": "2025-10-25T20:02:49.015547"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 347,
+    "timestamp": "2025-10-25T20:02:49.066458"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 191,
+    "timestamp": "2025-10-25T20:02:48.910933"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 247,
+    "timestamp": "2025-10-25T20:02:48.966982"
+  },
+  {
+    "name": "Mock Server 0",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 669,
+    "timestamp": "2025-10-25T20:02:49.351637"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 561,
+    "timestamp": "2025-10-25T20:02:49.243139"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 376,
+    "timestamp": "2025-10-25T20:02:49.059370"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 726,
+    "timestamp": "2025-10-25T20:02:49.409974"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 383,
+    "timestamp": "2025-10-25T20:02:49.067684"
   }
 ]

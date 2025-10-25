@@ -1,13 +1,13 @@
-# from monitor.storage import save_results
 from .rabbitmq_producer import send_task
-
+from .kafka_producer import send_result
 from pathlib import Path
 from datetime import datetime
 import json
-import requests
 import time
 import asyncio
 import aiohttp
+
+from .logger import setup_logger
 
 # Асинхронная проверка одного API
 async def fetch(session, name, url, log, semaphore):
@@ -28,7 +28,7 @@ async def fetch(session, name, url, log, semaphore):
 
 			log.error(f"Check {name} -> {status}: Request error ({elapsed_resp_time} ms)")
 
-	return {
+	result = {
 		"name": name,
 		"url": url,
 		"status": status,
@@ -36,8 +36,13 @@ async def fetch(session, name, url, log, semaphore):
 		"timestamp": datetime.now().isoformat()
 	}
 
+	# send_result(result)
+
+	return result
+
 # Асинхронная проверка всех API из файла конфигурации
-async def run_check_async(config_path, log):
+async def run_check_async(config_path):
+	log = setup_logger()
 	path = Path(config_path)
 	if not path.exists():
 		log.error(f"File {config_path} not found!")
@@ -48,10 +53,3 @@ async def run_check_async(config_path, log):
 
 	for endpoint in endpoints:
 		await send_task(endpoint)
-
-		# async with aiohttp.ClientSession() as session:
-		# 	tasks = [fetch(session, endpoint, log, semaphore) for endpoint in endpoints]
-		# 	results = await asyncio.gather(*tasks, return_exceptions=True)
-
-		# save_results(results)
-		# log.info("The results are saved.")

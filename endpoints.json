@@ -1,5 +1,4 @@
 [
-	{ "name": "Mock Server 0", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 1", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 2", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 3", "url": "http://127.0.0.1:8000/api/test" },

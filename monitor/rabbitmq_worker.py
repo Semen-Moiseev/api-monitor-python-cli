@@ -9,7 +9,6 @@ from .storage import save_results
 
 # Число одновременных запросов
 SEMAPHORE_LIMIT = 5
-MAX_BATCH_SIZE = 11
 
 async def worker(queue_name="api_tasks"):
 	log = setup_logger()
@@ -18,7 +17,7 @@ async def worker(queue_name="api_tasks"):
 	async with connection:
 		channel = await connection.channel()
 		queue = await channel.declare_queue(queue_name, durable=True)
-		print(f"[WORKER] Слушаем очередь {queue_name}")
+		print(f"[WORKER] Listening to the queue {queue_name}")
 
 		while True:
 			endpoints = []
@@ -29,7 +28,7 @@ async def worker(queue_name="api_tasks"):
 						endpoint = json.loads(message.body)
 						endpoints.append(endpoint)
 
-					if len(endpoints) >= MAX_BATCH_SIZE:
+					if len(endpoints) >= SEMAPHORE_LIMIT:
 						break
 
 			if endpoints:
@@ -45,5 +44,5 @@ async def worker(queue_name="api_tasks"):
 
 
 if __name__ == "__main__":
-	print(f"[WORKER] Запуск RabbitMQ...")
+	print(f"[WORKER] Launch worker RabbitMQ...")
 	asyncio.run(worker())
