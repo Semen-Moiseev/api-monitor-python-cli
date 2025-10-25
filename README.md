@@ -27,7 +27,13 @@ source .venv/bin/activate  # Linux / macOS
 uvicorn mock_server:app --reload
 ```
 
-### 2. Выполнение команд
+### 2. Запуск воркеров RabbitMQ
+
+```bash
+python -m monitor.rabbitmq_worker
+```
+
+### 3. Выполнение команд
 
 ```bash
 python cli.py <команда>
