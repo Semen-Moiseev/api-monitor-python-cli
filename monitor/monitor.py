@@ -5,8 +5,39 @@ from datetime import datetime
 import json
 import requests
 import time
+import asyncio
+import aiohttp
 
-def run_monitor(config_path, log):
+# Число одновременных запросов
+SEMAPHORE_LIMIT = 5
+
+# Асинхронная проверка одного API
+async def fetch(session, endpoint, log, semaphore):
+	name = endpoint.get("name")
+	url = endpoint.get("url")
+
+	async with semaphore:
+		start_resp_time = time.time()
+		status = None
+		try:
+			async with session.get(url, timeout=aiohttp.ClientTimeout(total=3)) as response:
+				status = response.status
+				await response.text()
+		except (aiohttp.ClientError, asyncio.TimeoutError):
+			log.error(f"{name}: Request error")
+
+	elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
+	log.info(f"Check {name} -> {status} ({elapsed_resp_time} ms)")
+	return {
+		"name": name,
+		"url": url,
+		"status": status,
+		"response_time_ms": elapsed_resp_time,
+		"timestamp": datetime.now().isoformat()
+	}
+
+# Асинхронная проверка всех API из файла конфигурации
+async def run_check_async(config_path, log):
 	path = Path(config_path)
 	if not path.exists():
 		log.error(f"File {config_path} not found!")
@@ -14,32 +45,11 @@ def run_monitor(config_path, log):
 
 	with path.open("r", encoding="utf-8") as f:
 		endpoints = json.load(f)
+		semaphore = asyncio.Semaphore(SEMAPHORE_LIMIT)
 
-	results = []
+		async with aiohttp.ClientSession() as session:
+			tasks = [fetch(session, endpoint, log, semaphore) for endpoint in endpoints]
+			results = await asyncio.gather(*tasks, return_exceptions=True)
 
-	for endpoint in endpoints:
-		name = endpoint.get("name")
-		url = endpoint.get("url")
-
-		start_resp_time = time.time()
-		try:
-			response = requests.get(url, timeout=5)
-			status = response.status_code
-		except requests.exceptions.RequestException:
-			log.error(f"{name}: Request error")
-			status = None
-
-		elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
-
-		result = {
-			"name": name,
-			"url": url,
-			"status": status,
-			"response_time_ms": elapsed_resp_time,
-			"timestamp": datetime.now().isoformat()
-		}
-		log.info(f"Check {name} -> {status} ({elapsed_resp_time} ms)")
-		results.append(result)
-
-	save_results(results)
-	log.info("The results are saved.")
+		save_results(results)
+		log.info("The results are saved.")
