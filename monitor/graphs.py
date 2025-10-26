@@ -51,9 +51,8 @@ def timeAverage(log):
 	y = [mean(times) for times in endpoint_times.values()]
 
 	plt.figure(figsize=(10, 5))
-	plt.scatter(x, y, alpha=0.6)
+	plt.bar(x, y, color="skyblue")
 	plt.title("Response time dispersion for successful requests")
-	plt.colorbar(label="Response Time (ms)")
 	plt.xlabel("Endpoint")
 	plt.ylabel("Response Time (ms)")
 	plt.xticks(rotation=45)
