@@ -4,7 +4,6 @@ import pandas as pd
 
 def show_stats(log):
 	json_path = Path("logs/api_log.json")
-
 	if not json_path.exists():
 		log.error("There is no data for analysis! You need to run the \"check\" command")
 		return
