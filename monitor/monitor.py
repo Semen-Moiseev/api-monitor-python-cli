@@ -3,7 +3,6 @@ from monitor.storage import save_results
 from pathlib import Path
 from datetime import datetime
 import json
-import requests
 import time
 import asyncio
 import aiohttp
