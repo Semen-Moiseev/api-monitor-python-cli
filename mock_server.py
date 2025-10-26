@@ -13,7 +13,7 @@ def mock_test():
 	if random.random() < 0.1:
 		time.sleep(3.0)
 
-	if random.random() < 0.7:
+	if random.random() < 0.8:
 		return {"status": "ok", "delay": delay}
 	else:
 		raise aiohttp.ClientResponseError(status_code=500, DETAIL={"status": "error", "delay": delay})

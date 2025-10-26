@@ -3,140 +3,630 @@
     "name": "GitHub API",
     "url": "https://api.github.com",
     "status": 200,
-    "response_time_ms": 391,
-    "timestamp": "2025-10-25T12:43:28.138435"
+    "response_time_ms": 621,
+    "timestamp": "2025-10-26T17:34:09.322218"
   },
   {
     "name": "Mock Server 1",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 200,
-    "response_time_ms": 591,
-    "timestamp": "2025-10-25T12:43:28.343338"
-  },
-  {
-    "name": "JSONPlaceHolder",
-    "url": "https://jsonplaceholder.typicode.com",
-    "status": 200,
-    "response_time_ms": 215,
-    "timestamp": "2025-10-25T12:43:27.968487"
+    "response_time_ms": 748,
+    "timestamp": "2025-10-26T17:34:09.451529"
   },
   {
     "name": "Mock Server 2",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 200,
-    "response_time_ms": 517,
-    "timestamp": "2025-10-25T12:43:28.271136"
+    "response_time_ms": 154,
+    "timestamp": "2025-10-26T17:34:08.859453"
   },
   {
     "name": "Mock Server 3",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": 200,
-    "response_time_ms": 636,
-    "timestamp": "2025-10-25T12:43:28.391229"
+    "status": 500,
+    "response_time_ms": 233,
+    "timestamp": "2025-10-26T17:34:08.938969"
   },
   {
     "name": "Mock Server 4",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 500,
-    "response_time_ms": 299,
-    "timestamp": "2025-10-25T12:43:28.269168"
+    "response_time_ms": 754,
+    "timestamp": "2025-10-26T17:34:09.460051"
   },
   {
     "name": "Mock Server 5",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": 200,
-    "response_time_ms": 360,
-    "timestamp": "2025-10-25T12:43:28.499314"
+    "status": 500,
+    "response_time_ms": 616,
+    "timestamp": "2025-10-26T17:34:09.477079"
   },
   {
     "name": "Mock Server 6",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": 500,
-    "response_time_ms": 558,
-    "timestamp": "2025-10-25T12:43:28.828343"
+    "status": 200,
+    "response_time_ms": 326,
+    "timestamp": "2025-10-26T17:34:09.266559"
   },
   {
     "name": "Mock Server 7",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 500,
-    "response_time_ms": 619,
-    "timestamp": "2025-10-25T12:43:28.891828"
+    "response_time_ms": 396,
+    "timestamp": "2025-10-26T17:34:09.663506"
   },
   {
     "name": "Mock Server 8",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": 500,
-    "response_time_ms": 593,
-    "timestamp": "2025-10-25T12:43:28.937848"
+    "status": 200,
+    "response_time_ms": 566,
+    "timestamp": "2025-10-26T17:34:09.889825"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 345,
+    "timestamp": "2025-10-26T17:34:09.797849"
   },
   {
     "name": "GitHub API",
     "url": "https://api.github.com",
     "status": 200,
-    "response_time_ms": 273,
-    "timestamp": "2025-10-25T12:44:21.008825"
+    "response_time_ms": 554,
+    "timestamp": "2025-10-26T17:34:13.919371"
   },
   {
     "name": "Mock Server 1",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": 500,
-    "response_time_ms": 192,
-    "timestamp": "2025-10-25T12:44:20.931524"
-  },
-  {
-    "name": "JSONPlaceHolder",
-    "url": "https://jsonplaceholder.typicode.com",
     "status": 200,
-    "response_time_ms": 231,
-    "timestamp": "2025-10-25T12:44:20.971274"
+    "response_time_ms": 311,
+    "timestamp": "2025-10-26T17:34:13.679551"
   },
   {
     "name": "Mock Server 2",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 200,
-    "response_time_ms": 642,
-    "timestamp": "2025-10-25T12:44:21.383597"
+    "response_time_ms": 674,
+    "timestamp": "2025-10-26T17:34:14.042903"
   },
   {
     "name": "Mock Server 3",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 200,
-    "response_time_ms": 618,
-    "timestamp": "2025-10-25T12:44:21.359881"
+    "response_time_ms": 120,
+    "timestamp": "2025-10-26T17:34:13.489886"
   },
   {
     "name": "Mock Server 4",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": null,
-    "response_time_ms": 3006,
-    "timestamp": "2025-10-25T12:44:23.938038"
+    "status": 200,
+    "response_time_ms": 251,
+    "timestamp": "2025-10-26T17:34:13.621673"
   },
   {
     "name": "Mock Server 5",
     "url": "http://127.0.0.1:8000/api/test",
-    "status": 200,
-    "response_time_ms": 718,
-    "timestamp": "2025-10-25T12:44:21.690833"
+    "status": 500,
+    "response_time_ms": 498,
+    "timestamp": "2025-10-26T17:34:13.989372"
   },
   {
     "name": "Mock Server 6",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 200,
-    "response_time_ms": 510,
-    "timestamp": "2025-10-25T12:44:21.520327"
+    "response_time_ms": 748,
+    "timestamp": "2025-10-26T17:34:14.370637"
   },
   {
     "name": "Mock Server 7",
     "url": "http://127.0.0.1:8000/api/test",
     "status": 200,
-    "response_time_ms": 265,
-    "timestamp": "2025-10-25T12:44:21.625560"
+    "response_time_ms": 555,
+    "timestamp": "2025-10-26T17:34:14.235804"
   },
   {
     "name": "Mock Server 8",
     "url": "http://127.0.0.1:8000/api/test",
     "status": null,
-    "response_time_ms": 3007,
-    "timestamp": "2025-10-25T12:44:24.391458"
+    "response_time_ms": 3016,
+    "timestamp": "2025-10-26T17:34:16.936608"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 211,
+    "timestamp": "2025-10-26T17:34:14.201102"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 676,
+    "timestamp": "2025-10-26T17:34:57.670407"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 172,
+    "timestamp": "2025-10-26T17:34:57.169261"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 287,
+    "timestamp": "2025-10-26T17:34:57.285290"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 3010,
+    "timestamp": "2025-10-26T17:35:00.009042"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 351,
+    "timestamp": "2025-10-26T17:34:57.349863"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 689,
+    "timestamp": "2025-10-26T17:34:57.859520"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 554,
+    "timestamp": "2025-10-26T17:34:57.840843"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 336,
+    "timestamp": "2025-10-26T17:34:57.686612"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 271,
+    "timestamp": "2025-10-26T17:34:57.942798"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 609,
+    "timestamp": "2025-10-26T17:34:58.296752"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 685,
+    "timestamp": "2025-10-26T17:36:41.596127"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 249,
+    "timestamp": "2025-10-26T17:36:41.162295"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 533,
+    "timestamp": "2025-10-26T17:36:41.447448"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 508,
+    "timestamp": "2025-10-26T17:36:41.422495"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 457,
+    "timestamp": "2025-10-26T17:36:41.372232"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 157,
+    "timestamp": "2025-10-26T17:36:41.320467"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 513,
+    "timestamp": "2025-10-26T17:36:41.834967"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 346,
+    "timestamp": "2025-10-26T17:36:41.719599"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 3013,
+    "timestamp": "2025-10-26T17:36:44.436940"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 767,
+    "timestamp": "2025-10-26T17:36:42.215531"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 767,
+    "timestamp": "2025-10-26T18:02:12.286144"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2039,
+    "timestamp": "2025-10-26T18:02:13.560693"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2039,
+    "timestamp": "2025-10-26T18:02:13.561144"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2039,
+    "timestamp": "2025-10-26T18:02:13.561635"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2039,
+    "timestamp": "2025-10-26T18:02:13.562102"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2040,
+    "timestamp": "2025-10-26T18:02:14.326969"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2031,
+    "timestamp": "2025-10-26T18:02:15.593954"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2031,
+    "timestamp": "2025-10-26T18:02:15.594376"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2031,
+    "timestamp": "2025-10-26T18:02:15.594879"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2031,
+    "timestamp": "2025-10-26T18:02:15.595343"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 547,
+    "timestamp": "2025-10-26T18:02:22.691516"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2015,
+    "timestamp": "2025-10-26T18:02:24.162091"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2016,
+    "timestamp": "2025-10-26T18:02:24.162527"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2015,
+    "timestamp": "2025-10-26T18:02:24.162995"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2015,
+    "timestamp": "2025-10-26T18:02:24.163437"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2018,
+    "timestamp": "2025-10-26T18:02:24.710544"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2047,
+    "timestamp": "2025-10-26T18:02:26.211439"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2047,
+    "timestamp": "2025-10-26T18:02:26.211981"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2047,
+    "timestamp": "2025-10-26T18:02:26.212512"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 2047,
+    "timestamp": "2025-10-26T18:02:26.213113"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 938,
+    "timestamp": "2025-10-26T18:02:37.939458"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 3015,
+    "timestamp": "2025-10-26T18:02:40.018825"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 322,
+    "timestamp": "2025-10-26T18:02:37.327630"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 356,
+    "timestamp": "2025-10-26T18:02:37.361056"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 454,
+    "timestamp": "2025-10-26T18:02:37.460310"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 577,
+    "timestamp": "2025-10-26T18:02:37.905650"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 793,
+    "timestamp": "2025-10-26T18:02:38.155448"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 716,
+    "timestamp": "2025-10-26T18:02:38.177659"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 736,
+    "timestamp": "2025-10-26T18:02:38.642390"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 179,
+    "timestamp": "2025-10-26T18:02:38.119154"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 654,
+    "timestamp": "2025-10-26T18:04:02.135144"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 623,
+    "timestamp": "2025-10-26T18:04:02.107169"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 412,
+    "timestamp": "2025-10-26T18:04:01.897397"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 504,
+    "timestamp": "2025-10-26T18:04:01.989653"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 626,
+    "timestamp": "2025-10-26T18:04:02.112439"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 233,
+    "timestamp": "2025-10-26T18:04:02.131299"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 783,
+    "timestamp": "2025-10-26T18:04:02.773338"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 201,
+    "timestamp": "2025-10-26T18:04:02.308724"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 353,
+    "timestamp": "2025-10-26T18:04:02.466728"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 3011,
+    "timestamp": "2025-10-26T18:04:05.143093"
+  },
+  {
+    "name": "GitHub API",
+    "url": "https://api.github.com",
+    "status": 200,
+    "response_time_ms": 565,
+    "timestamp": "2025-10-26T18:04:39.506368"
+  },
+  {
+    "name": "Mock Server 1",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 575,
+    "timestamp": "2025-10-26T18:04:39.518279"
+  },
+  {
+    "name": "Mock Server 2",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 500,
+    "response_time_ms": 327,
+    "timestamp": "2025-10-26T18:04:39.271941"
+  },
+  {
+    "name": "Mock Server 3",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 187,
+    "timestamp": "2025-10-26T18:04:39.131719"
+  },
+  {
+    "name": "Mock Server 4",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 224,
+    "timestamp": "2025-10-26T18:04:39.169455"
+  },
+  {
+    "name": "Mock Server 5",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 540,
+    "timestamp": "2025-10-26T18:04:39.672682"
+  },
+  {
+    "name": "Mock Server 6",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 237,
+    "timestamp": "2025-10-26T18:04:39.407529"
+  },
+  {
+    "name": "Mock Server 7",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 169,
+    "timestamp": "2025-10-26T18:04:39.441883"
+  },
+  {
+    "name": "Mock Server 8",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 776,
+    "timestamp": "2025-10-26T18:04:40.184872"
+  },
+  {
+    "name": "Mock Server 9",
+    "url": "http://127.0.0.1:8000/api/test",
+    "status": 200,
+    "response_time_ms": 255,
+    "timestamp": "2025-10-26T18:04:39.698948"
   }
 ]

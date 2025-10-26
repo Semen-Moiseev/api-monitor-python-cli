@@ -1,12 +1,12 @@
 [
 	{ "name": "GitHub API", "url": "https://api.github.com" },
 	{ "name": "Mock Server 1", "url": "http://127.0.0.1:8000/api/test" },
-	{ "name": "JSONPlaceHolder", "url": "https://jsonplaceholder.typicode.com" },
 	{ "name": "Mock Server 2", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 3", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 4", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 5", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 6", "url": "http://127.0.0.1:8000/api/test" },
 	{ "name": "Mock Server 7", "url": "http://127.0.0.1:8000/api/test" },
-	{ "name": "Mock Server 8", "url": "http://127.0.0.1:8000/api/test" }
+	{ "name": "Mock Server 8", "url": "http://127.0.0.1:8000/api/test" },
+	{ "name": "Mock Server 9", "url": "http://127.0.0.1:8000/api/test" }
 ]

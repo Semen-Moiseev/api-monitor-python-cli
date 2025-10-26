@@ -18,16 +18,19 @@ async def fetch(session, endpoint, log, semaphore):
 
 	async with semaphore:
 		start_resp_time = time.time()
-		status = None
+		status = 500
 		try:
 			async with session.get(url, timeout=aiohttp.ClientTimeout(total=3)) as response:
 				status = response.status
 				await response.text()
-		except (aiohttp.ClientError, asyncio.TimeoutError):
-			log.error(f"{name}: Request error")
+				elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
 
-	elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
-	log.info(f"Check {name} -> {status} ({elapsed_resp_time} ms)")
+				log.info(f"Check {name} -> {status} ({elapsed_resp_time} ms)")
+		except (aiohttp.ClientError, asyncio.TimeoutError):
+			elapsed_resp_time = int((time.time() - start_resp_time) * 1000)
+			
+			log.error(f"Check {name} -> {status}: Request error ({elapsed_resp_time} ms)")
+
 	return {
 		"name": name,
 		"url": url,
