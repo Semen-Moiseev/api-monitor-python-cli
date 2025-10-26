@@ -31,9 +31,21 @@ python mock_server.py
 
 ```bash
 python cli.py <команда>
+
+python cli.py check endpoints.json
+python cli.py stats
+python cli.py graphs --dispersion
+python cli.py graphs --average
 ```
 
 Аргументы:
 
 - check — Проверка API, + config — путь к файлу с эндпоинтами
 - stats — Вывод и сохранение в файл статистики проверок
+- graphs — Вывод графиков + --dispersion — график разюроса времени отклика / --average — график средних времени отклика
+
+<img width="998" height="570" alt="image" src="https://github.com/user-attachments/assets/acbe6a50-dd87-4cfe-b959-da3b3363ffa0" />
+<img width="997" height="569" alt="image" src="https://github.com/user-attachments/assets/d0aa794a-c5c1-4a67-bc1a-e14f4c09b679" />
+
+
+
