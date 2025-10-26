@@ -1,7 +1,10 @@
 from pathlib import Path
 import json
 
-def show_stats(log):
+from .logger import setup_logger
+
+def show_stats():
+	log = setup_logger()
 	json_path = Path("logs/api_log.json")
 
 	if not json_path.exists():

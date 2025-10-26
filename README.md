@@ -24,13 +24,22 @@ source .venv/bin/activate  # Linux / macOS
 ### 1. Запуск мок-сервера
 
 ```bash
-python mock_server.py
+uvicorn mock_server:app --reload
 ```
 
-### 2. Выполнение команд
+### 2. Запуск воркеров RabbitMQ
+
+```bash
+python -m monitor.rabbitmq_worker
+```
+
+### 3. Выполнение команд
 
 ```bash
 python cli.py <команда>
+
+python cli.py check endpoints.json
+python cli.py stats
 ```
 
 Аргументы:
