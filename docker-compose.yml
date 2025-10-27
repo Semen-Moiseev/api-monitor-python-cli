@@ -1,0 +1,26 @@
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - mockserver
+    environment:
+      - MOCKSERVER_HOST=mockserver
+      - MOCKSERVER_PORT=8000
+    stdin_open: true
+    tty: true
+  mockserver:
+    build:
+      context: .
+      dockerfile: Dockerfile_fastapi
+    container_name: mockserver
+    ports:
+      - '8000:80'
+    volumes:
+      - ./mock_server.py:/app/app/main.py
+      - ./logs:/app/logs

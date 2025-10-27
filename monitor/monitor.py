@@ -7,6 +7,7 @@ import requests
 import time
 import asyncio
 import aiohttp
+import os
 
 # Число одновременных запросов
 SEMAPHORE_LIMIT = 5

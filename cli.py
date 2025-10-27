@@ -31,7 +31,21 @@ def main():
 		elif args.average:
 			graphs.timeAverage(log)
 	else:
-		parser.print_help()
+		while True:
+			cmd = input("Enter command (check, stats, graphs, exit): ").strip()
+			if cmd == "exit":
+				break
+			elif cmd == "check":
+				config = input("Enter path to the configuration file: ").strip()
+				asyncio.run(monitor.run_check_async(config, log))
+			elif cmd == "stats":
+				stats.show_stats(log)
+			elif cmd == "graphs --dispersion":
+				graphs.timeDispersion(log)
+			elif cmd == "graphs --average":
+				graphs.timeAverage(log)
+			else:
+				print("Unknown command!")
 
 if __name__ == "__main__":
 	main()

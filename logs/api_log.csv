@@ -169,3 +169,93 @@ Mock Server 6,http://127.0.0.1:8000/api/test,200,327,2025-10-26T21:15:24.271828
 Mock Server 7,http://127.0.0.1:8000/api/test,200,380,2025-10-26T21:15:24.421332
 Mock Server 8,http://127.0.0.1:8000/api/test,200,742,2025-10-26T21:15:24.885017
 Mock Server 9,http://127.0.0.1:8000/api/test,200,563,2025-10-26T21:15:24.835194
+GitHub API,https://api.github.com,200,623,2025-10-27T19:46:38.750640
+Mock Server 1,http://127.0.0.1:8000/api/test,500,2043,2025-10-27T19:46:40.171816
+Mock Server 2,http://127.0.0.1:8000/api/test,500,2045,2025-10-27T19:46:40.173535
+Mock Server 3,http://127.0.0.1:8000/api/test,500,2044,2025-10-27T19:46:40.172863
+Mock Server 4,http://127.0.0.1:8000/api/test,500,2044,2025-10-27T19:46:40.173193
+Mock Server 5,http://127.0.0.1:8000/api/test,500,2029,2025-10-27T19:46:40.781042
+Mock Server 6,http://127.0.0.1:8000/api/test,500,2042,2025-10-27T19:46:42.215583
+Mock Server 7,http://127.0.0.1:8000/api/test,500,2042,2025-10-27T19:46:42.216468
+Mock Server 8,http://127.0.0.1:8000/api/test,500,2056,2025-10-27T19:46:42.230851
+Mock Server 9,http://127.0.0.1:8000/api/test,500,2041,2025-10-27T19:46:42.216113
+GitHub API,https://api.github.com,200,497,2025-10-27T19:47:01.587559
+Mock Server 1,http://127.0.0.1:8000/api/test,200,297,2025-10-27T19:47:01.389251
+Mock Server 2,http://127.0.0.1:8000/api/test,200,791,2025-10-27T19:47:01.883517
+Mock Server 3,http://127.0.0.1:8000/api/test,200,597,2025-10-27T19:47:01.689324
+Mock Server 4,http://127.0.0.1:8000/api/test,200,607,2025-10-27T19:47:01.700486
+Mock Server 5,http://127.0.0.1:8000/api/test,200,268,2025-10-27T19:47:01.657929
+Mock Server 6,http://127.0.0.1:8000/api/test,200,703,2025-10-27T19:47:02.291208
+Mock Server 7,http://127.0.0.1:8000/api/test,200,652,2025-10-27T19:47:02.310453
+Mock Server 8,http://127.0.0.1:8000/api/test,200,341,2025-10-27T19:47:02.030612
+Mock Server 9,http://127.0.0.1:8000/api/test,200,552,2025-10-27T19:47:02.253587
+GitHub API,https://api.github.com,200,900,2025-10-27T20:07:16.188602
+Mock Server 1,http://127.0.0.1:8000/api/test,200,212,2025-10-27T20:07:15.501834
+Mock Server 2,http://127.0.0.1:8000/api/test,200,645,2025-10-27T20:07:15.934921
+Mock Server 3,http://127.0.0.1:8000/api/test,200,392,2025-10-27T20:07:15.681971
+Mock Server 4,http://127.0.0.1:8000/api/test,200,492,2025-10-27T20:07:15.782939
+Mock Server 5,http://127.0.0.1:8000/api/test,500,673,2025-10-27T20:07:16.175815
+Mock Server 6,http://127.0.0.1:8000/api/test,200,198,2025-10-27T20:07:15.880888
+Mock Server 7,http://127.0.0.1:8000/api/test,200,564,2025-10-27T20:07:16.348044
+Mock Server 8,http://127.0.0.1:8000/api/test,500,3014,2025-10-27T20:07:18.896436
+Mock Server 9,http://127.0.0.1:8000/api/test,500,3007,2025-10-27T20:07:18.943081
+GitHub API,https://api.github.com,200,544,2025-10-27T20:07:22.222424
+Mock Server 1,http://127.0.0.1:8000/api/test,200,364,2025-10-27T20:07:22.043668
+Mock Server 2,http://127.0.0.1:8000/api/test,500,3005,2025-10-27T20:07:24.685277
+Mock Server 3,http://127.0.0.1:8000/api/test,200,396,2025-10-27T20:07:22.076853
+Mock Server 4,http://127.0.0.1:8000/api/test,200,401,2025-10-27T20:07:22.082044
+Mock Server 5,http://127.0.0.1:8000/api/test,200,547,2025-10-27T20:07:22.592039
+Mock Server 6,http://127.0.0.1:8000/api/test,200,798,2025-10-27T20:07:22.876210
+Mock Server 7,http://127.0.0.1:8000/api/test,200,752,2025-10-27T20:07:22.834401
+Mock Server 8,http://127.0.0.1:8000/api/test,200,403,2025-10-27T20:07:22.625889
+Mock Server 9,http://127.0.0.1:8000/api/test,200,532,2025-10-27T20:07:23.125030
+GitHub API,https://api.github.com,200,562,2025-10-27T20:07:27.954643
+Mock Server 1,http://127.0.0.1:8000/api/test,200,705,2025-10-27T20:07:28.099488
+Mock Server 2,http://127.0.0.1:8000/api/test,500,296,2025-10-27T20:07:27.690906
+Mock Server 3,http://127.0.0.1:8000/api/test,200,721,2025-10-27T20:07:28.115339
+Mock Server 4,http://127.0.0.1:8000/api/test,200,163,2025-10-27T20:07:27.557839
+Mock Server 5,http://127.0.0.1:8000/api/test,200,488,2025-10-27T20:07:28.047155
+Mock Server 6,http://127.0.0.1:8000/api/test,500,535,2025-10-27T20:07:28.226625
+Mock Server 7,http://127.0.0.1:8000/api/test,200,283,2025-10-27T20:07:28.238407
+Mock Server 8,http://127.0.0.1:8000/api/test,200,509,2025-10-27T20:07:28.556742
+Mock Server 9,http://127.0.0.1:8000/api/test,500,3010,2025-10-27T20:07:31.110817
+GitHub API,https://api.github.com,200,579,2025-10-27T20:13:54.335026
+Mock Server 1,http://127.0.0.1:8000/api/test,200,640,2025-10-27T20:13:54.397989
+Mock Server 2,http://127.0.0.1:8000/api/test,500,305,2025-10-27T20:13:54.062858
+Mock Server 3,http://127.0.0.1:8000/api/test,200,195,2025-10-27T20:13:53.953200
+Mock Server 4,http://127.0.0.1:8000/api/test,200,591,2025-10-27T20:13:54.349685
+Mock Server 5,http://127.0.0.1:8000/api/test,200,595,2025-10-27T20:13:54.549177
+Mock Server 6,http://127.0.0.1:8000/api/test,200,254,2025-10-27T20:13:54.318146
+Mock Server 7,http://127.0.0.1:8000/api/test,200,309,2025-10-27T20:13:54.628247
+Mock Server 8,http://127.0.0.1:8000/api/test,200,708,2025-10-27T20:13:55.044209
+Mock Server 9,http://127.0.0.1:8000/api/test,200,502,2025-10-27T20:13:54.852685
+GitHub API,https://api.github.com,200,625,2025-10-27T13:22:05.983921
+Mock Server 1,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.362961
+Mock Server 2,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.363338
+Mock Server 3,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.363862
+Mock Server 4,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.364246
+Mock Server 5,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.365978
+Mock Server 6,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.366417
+Mock Server 7,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.366838
+Mock Server 8,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:05.367281
+Mock Server 9,http://127.0.0.1:8000/api/test,500,0,2025-10-27T13:22:05.368021
+GitHub API,https://api.github.com,200,501,2025-10-27T13:22:57.850733
+Mock Server 1,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.351163
+Mock Server 2,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.351500
+Mock Server 3,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.351824
+Mock Server 4,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.352386
+Mock Server 5,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.354298
+Mock Server 6,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.354685
+Mock Server 7,http://127.0.0.1:8000/api/test,500,1,2025-10-27T13:22:57.355086
+Mock Server 8,http://127.0.0.1:8000/api/test,500,2,2025-10-27T13:22:57.355464
+Mock Server 9,http://127.0.0.1:8000/api/test,500,0,2025-10-27T13:22:57.356295
+GitHub API,http://mockserver:8000/api/test,500,10,2025-10-27T13:24:42.811621
+Mock Server 1,http://mockserver:8000/api/test,500,3,2025-10-27T13:24:42.809188
+Mock Server 2,http://mockserver:8000/api/test,500,2,2025-10-27T13:24:42.808596
+Mock Server 3,http://mockserver:8000/api/test,500,3,2025-10-27T13:24:42.809714
+Mock Server 4,http://mockserver:8000/api/test,500,4,2025-10-27T13:24:42.810183
+Mock Server 5,http://mockserver:8000/api/test,500,1,2025-10-27T13:24:42.812452
+Mock Server 6,http://mockserver:8000/api/test,500,1,2025-10-27T13:24:42.812932
+Mock Server 7,http://mockserver:8000/api/test,500,2,2025-10-27T13:24:42.813441
+Mock Server 8,http://mockserver:8000/api/test,500,2,2025-10-27T13:24:42.813961
+Mock Server 9,http://mockserver:8000/api/test,500,2,2025-10-27T13:24:42.814425
