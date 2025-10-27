@@ -11,7 +11,7 @@ git clone https://github.com/<your-username>/api-monitor-python-cli.git
 cd api-monitor-python-cli
 ```
 
-### 2.1. Создайте и активируйте виртуальное окружение
+### 2. Создайте и активируйте виртуальное окружение
 
 ```bash
 python -m venv .venv
@@ -19,21 +19,15 @@ python -m venv .venv
 source .venv/bin/activate  # Linux / macOS
 ```
 
-### 2.2. Создайте и активируйте виртуальное окружение
-
-```bash
-docker-compose up [--build]
-```
-
 ## Использование
 
-### 1.1. Запуск мок-сервера
+### 1. Запуск мок-сервера
 
 ```bash
 python mock_server.py
 ```
 
-### 1.2. Выполнение команд
+### 2. Выполнение команд
 
 ```bash
 python cli.py <команда>
@@ -44,13 +38,6 @@ python cli.py graphs --dispersion
 python cli.py graphs --average
 ```
 
-### 2.1. Через Docker
-
-```bash
-docker-compose up -d mockserver
-docker-compose run --rm app
-```
-
 Аргументы:
 
 - check — Проверка API, + config — путь к файлу с эндпоинтами
@@ -59,6 +46,3 @@ docker-compose run --rm app
 
 <img width="998" height="570" alt="image" src="https://github.com/user-attachments/assets/acbe6a50-dd87-4cfe-b959-da3b3363ffa0" />
 <img width="997" height="569" alt="image" src="https://github.com/user-attachments/assets/d0aa794a-c5c1-4a67-bc1a-e14f4c09b679" />
-
-
-
